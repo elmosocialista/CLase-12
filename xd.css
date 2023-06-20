@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(230, 242, 237);
+    width: 960px;
+}
+#group_form{
+    border: 2px solid rgb(43, 24, 22);
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(205, 210, 235);
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px #999;
+}
+h2 {
+    color: brown;
+    text-align: center; 
+}
+form input[type="text"]{
+    width: 180px;
+    border-radius: 3px;
+
+}
+
+form input[type="number"]
+{
+    width: 120px;
+    border-radius: 3px;
+}
+form input[type="submit"], form input[type="reset"]
+{
+    width: 45%;
+    padding: 8px 16px;
+    margin: 6px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display:inline-block;
+     text-align: center;
+}
